@@ -5,3 +5,7 @@ def line(katz_deli)
     # shows everyone their current place in the line
   end
 end
+
+def take_a_number(katz_deli, name)
+  
+end
