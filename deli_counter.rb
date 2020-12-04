@@ -6,7 +6,6 @@ katz_deli.each_with_index do |name, num|
   else
     puts "The line is currently: #{num}. #{name}"
   end
-
 end
 
 end
