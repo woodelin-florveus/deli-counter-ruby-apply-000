@@ -13,6 +13,7 @@ else
   katz_deli.each_with_index do |name, num|
    line << "#{num + 1}. #{name}"
   end
+  line
 end
 
 end
