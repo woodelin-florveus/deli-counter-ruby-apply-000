@@ -14,7 +14,8 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli.empty?
 
+  if katz_deli.empty?
+    name << katz_deli
   end
 end
