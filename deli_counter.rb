@@ -12,7 +12,7 @@ if katz_deli.empty?
 else
   line =  "The line is currently:"
   katz_deli.each_with_index do |name, num|
-   line << "#{num + 1}. #{name}"
+   line << " #{num + 1}. #{name}"
   end
   puts line
 end
