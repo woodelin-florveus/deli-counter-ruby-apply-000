@@ -21,6 +21,5 @@ def take_a_number(katz_deli, name)
 
 katz_deli.each_with_index do |person, num|
     "Welcome, #{name}. You are number #{num} in line."
-  end
 end
 end
